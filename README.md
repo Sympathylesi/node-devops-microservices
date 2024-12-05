@@ -2,6 +2,15 @@
 
 This repository contains a Node.js-based backend application that is designed to work with Docker and Docker Compose. The project demonstrates how to build, dockerize, and deploy a Node.js app in a containerized environment using best practices in DevOps.
 
+# Contact Information
+For further assistance or inquiries, feel free to reach out via the following channels:
+
+- Name: [Eng Nsah Sympathy Lesi]
+- Phone: [+237 650-661-631]
+- Email: [nsahsympathylesi@gmail.com]
+- GitHub: [https://github.com/Sympathylesi]
+- LinkedIn:[https://www.linkedin.com/in/nsah-nsah-sympathy-lesi-3b30b6240]
+
 ## Table of Contents
 
 - [Overview](#overview)
