@@ -56,7 +56,7 @@ jobs:
       # Step 3: Build and push the Docker image to DockerHub
       - name: Build and Push Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/node-devops-microservices:latest .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/node-devops-microservices:latest ./backend
           docker push ${{ secrets.DOCKER_USERNAME }}/node-devops-microservices:latest
 
       # Step 4: Deploy to an EC2 instance using SSH
