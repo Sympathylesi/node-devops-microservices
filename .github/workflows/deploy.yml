@@ -27,6 +27,7 @@ jobs:
 
       # Step 3: Install project dependencies
       - name: Install dependencies
+        working-directory: backend  # Navigate to the 'backend' directory where package.json is located
         run: npm install
 
       # Step 4: Run tests to verify the application's integrity
