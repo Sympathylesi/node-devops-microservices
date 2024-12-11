@@ -1,13 +1,13 @@
 name: CI/CD Pipeline
 
-# Trigger the workflow on any push to the 'main' branch or when a pull request targets it
+# Trigger the workflow on any push to the 'master' branch or when a pull request targets it
 on:
   push:
     branches:
-      - master
+      - master  # Trigger on push to master branch
   pull_request:
     branches:
-      - master
+      - master  # Trigger on PR targeting the master branch
 
 jobs:
   # First job: Build and Test
@@ -32,13 +32,14 @@ jobs:
 
       # Step 4: Run tests to verify the application's integrity
       - name: Run tests
+        working-directory: backend  # Ensure npm test runs in the 'backend' folder
         run: npm test
 
   # Second job: Deployment (only after the 'build' job is successful)
   deploy:
     needs: build # Ensure this job runs only if the 'build' job is successful
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master' # Deploy only on the main branch
+    if: github.ref == 'refs/heads/master' # Deploy only on the master branch
 
     steps:
       # Step 1: Checkout the repository again for deployment
