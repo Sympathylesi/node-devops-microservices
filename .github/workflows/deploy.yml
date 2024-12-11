@@ -37,7 +37,7 @@ jobs:
   deploy:
     needs: build # Ensure this job runs only if the 'build' job is successful
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' # Deploy only on the main branch
+    if: github.ref == 'refs/heads/master' # Deploy only on the main branch
 
     steps:
       # Step 1: Checkout the repository again for deployment
