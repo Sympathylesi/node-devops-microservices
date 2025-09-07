@@ -5,11 +5,11 @@ This repository contains a Node.js-based backend application that is designed to
 # Contact Information
 For further assistance or inquiries, feel free to reach out via the following channels:
 
-- Name: [Eng Nsah Sympathy Lesi]
-- Phone: [+237 650-661-631]
-- Email: [nsahsympathylesi@gmail.com]
-- GitHub: [https://github.com/Sympathylesi]
-- LinkedIn:[https://www.linkedin.com/in/nsah-nsah-sympathy-lesi-3b30b6240]
+- Name: Eng Nsah Sympathy Lesi
+- Phone: +237 650-661-631
+- Email: nsahsympathylesi@gmail.com
+- GitHub: https://github.com/Sympathylesi
+- LinkedIn:https://www.linkedin.com/in/nsah-nsah-sympathy-lesi-3b30b6240
 
 ## Table of Contents
 
